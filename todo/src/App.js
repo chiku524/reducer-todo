@@ -32,7 +32,7 @@ function App() {
     <div className="App">
       <div className="header">
         <h1>To-Do List</h1>
-        <TodoForm taskSubmit={taskSubmit} clearCompleted={clearCompleted} inputChange={inputChange} state={state} />
+        <TodoForm taskSubmit={taskSubmit} clearCompleted={clearCompleted} inputChange={inputChange} state={state} taskInput={taskInput} />
       </div>
       <TodoList state={state} toggleItem={toggleItem} />
     </div>

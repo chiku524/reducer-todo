@@ -12,6 +12,6 @@ code {
     monospace;
 }
 
-.todo.completed {
+.todocompleted {
   text-decoration: line-through;
 }
